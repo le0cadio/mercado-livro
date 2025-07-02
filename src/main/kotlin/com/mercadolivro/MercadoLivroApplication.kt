@@ -7,6 +7,6 @@ import org.springframework.boot.runApplication
 class MercadoLivroApplication
 
 fun main(args: Array<String>) {
-	runApplication<MercadoLivroApplication>(*args)
-
+    runApplication<MercadoLivroApplication>(*args)
+    println("Mercado Livro Application is running!")
 }
